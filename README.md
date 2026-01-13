@@ -36,6 +36,10 @@ Ensure you have Python 3.8+ installed on your system.
    ```bash
    pip install streamlit pandas plotly pyarrow
    ```
+3. Install Node.js dependencies:
+   ```bash
+   npm install
+   ```
 
 ### Running Locally
 
@@ -63,4 +67,5 @@ The application will open automatically in your default web browser at `http://l
   👉 Download here: <PASTE_LINK_HERE>
 
 - 🗂️ train-000002-of-000002.parquet  
+
   👉 Download here: <PASTE_LINK_HERE>
