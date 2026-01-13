@@ -63,9 +63,10 @@ The application will open automatically in your default web browser at `http://l
 
 ## 📂 Download Dataset From here 
 
-- 🗂️ train-000001-of-000002.parquet  
+- 🗂️ train-00000-of-000002.parquet  
   👉 Download here: <PASTE_LINK_HERE>
 
-- 🗂️ train-000002-of-000002.parquet  
+- 🗂️ train-00001-of-000002.parquet  
 
   👉 Download here: <PASTE_LINK_HERE>
+
