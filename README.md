@@ -34,11 +34,7 @@ Ensure you have Python 3.8+ installed on your system.
 
 2. Install the required dependencies:
    ```bash
-   pip install streamlit pandas plotly pyarrow
-   ```
-3. Install Node.js dependencies:
-   ```bash
-   npm install
+   pip install -r requirements.txt
    ```
 
 ### Running Locally
@@ -53,9 +49,20 @@ The application will open automatically in your default web browser at `http://l
 
 ## 📂 Project Structure
 
-- `app.py`: Main application logic and UI styling.
-- `*.parquet`: Prediction market datasets (automatically detected by the app).
-- `README.md`: Project documentation.
+prediction-market-intelligence/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+│
+├── data/
+│   ├── train-00000-of-000002.parquet
+│   └── train-00001-of-000002.parquet
+│
+└── utils/
+    ├── __init__.py        ✅ REQUIRED
+    ├── data_loader.py
+    └── analytics.py
 
 ## 🌐 Live Demo
 
@@ -69,6 +76,7 @@ The application will open automatically in your default web browser at `http://l
 - 🗂️ train-00001-of-000002.parquet  
 
   👉 Download here: (<https://drive.google.com/file/d/1LRo0iqVpgeS55Q3pu3glRNS4pmxrQ-9B/view?usp=sharing>)
+
 
 
 
