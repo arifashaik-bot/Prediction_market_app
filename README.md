@@ -51,18 +51,18 @@ The application will open automatically in your default web browser at `http://l
 
 prediction-market-intelligence/
 │
-├── app.py
-├── requirements.txt
-├── README.md
+├── app.py # Main Streamlit application
+├── requirements.txt # Python dependencies
+├── README.md # Project documentation
 │
-├── data/
-│   ├── train-00000-of-000002.parquet
-│   └── train-00001-of-000002.parquet
+├── data/ # Dataset files (Apache Parquet)
+│ ├── train-00000-of-000002.parquet
+│ └── train-00001-of-000002.parquet
 │
-└── utils/
-    ├── __init__.py        ✅ REQUIRED
-    ├── data_loader.py
-    └── analytics.py
+└── utils/ # Utility modules
+├── init.py # Marks utils as a Python package
+├── data_loader.py # Loads and merges Parquet datasets
+└── analytics.py # Analytics & visualization helpers
 
 ## 🌐 Live Demo
 
@@ -76,6 +76,7 @@ prediction-market-intelligence/
 - 🗂️ train-00001-of-000002.parquet  
 
   👉 Download here: (<https://drive.google.com/file/d/1LRo0iqVpgeS55Q3pu3glRNS4pmxrQ-9B/view?usp=sharing>)
+
 
 
 
