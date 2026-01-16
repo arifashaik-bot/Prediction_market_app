@@ -12,12 +12,14 @@ A modern, high-performance data dashboard designed for analyzing prediction mark
   - **ℹ️ Metadata**: Detailed column information and data quality metrics.
 - **Optimized Performance**: Leverages Parquet file formats and Streamlit's caching for lightning-fast data loading.
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
-- **Frontend/App Framework**: [Streamlit]
-- **Data Processing**: [Pandas]
-- **Visualization**: [Plotly Express]
-- **Storage Format**: [Apache Parquet] (via PyArrow)
+- **Frontend / App:** Streamlit  
+- **Data Processing:** Pandas  
+- **Visualization:** Plotly Express  
+- **Storage Format:** Apache Parquet  
+- **Parquet Engine:** PyArrow  
+- **Language:** Python 3
 
 ## 🚀 Getting Started
 
@@ -70,6 +72,7 @@ The application will open automatically in your default web browser at `http://l
 - 🗂️ train-00001-of-000002.parquet  
 
   👉 Download here: (<https://drive.google.com/file/d/1LRo0iqVpgeS55Q3pu3glRNS4pmxrQ-9B/view?usp=sharing>)
+
 
 
 
