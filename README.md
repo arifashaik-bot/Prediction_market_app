@@ -62,7 +62,9 @@ The application will open automatically in your default web browser at `http://l
 
 ## 🌐 Live Demo
 
-👉 Live app here:
+👉 Live app here:https://clone-pm-ehlbnvg7hxfmmfy8geramr.streamlit.app/
+⚠️ **Note:** The live app is intended to use the full prediction market dataset.  
+The dataset is very large, so the live deployment takes time to load.  
 
 ## 📂 Download Dataset From here 
 
@@ -72,6 +74,7 @@ The application will open automatically in your default web browser at `http://l
 - 🗂️ train-00001-of-000002.parquet  
 
   👉 Download here: (<https://drive.google.com/file/d/1LRo0iqVpgeS55Q3pu3glRNS4pmxrQ-9B/view?usp=sharing>)
+
 
 
 
