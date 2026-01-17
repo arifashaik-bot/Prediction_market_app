@@ -61,10 +61,10 @@ The application will open automatically in your default web browser at `http://l
   - `analytics.py` – Analytics & visualization functions
 
 ## 🌐 Live Demo
+👉 Live app here: (https://clone-pm-ehlbnvg7hxfmmfy8geramr.streamlit.app/)
 
-👉 Live app here:https://clone-pm-ehlbnvg7hxfmmfy8geramr.streamlit.app/
 ⚠️ **Note:** The live app is intended to use the full prediction market dataset.  
-The dataset is very large, so the live deployment takes time to load.  
+The dataset is very large, so the live deployment takes time to load.
 
 ## 📂 Download Dataset From here 
 
@@ -74,6 +74,7 @@ The dataset is very large, so the live deployment takes time to load.
 - 🗂️ train-00001-of-000002.parquet  
 
   👉 Download here: (<https://drive.google.com/file/d/1LRo0iqVpgeS55Q3pu3glRNS4pmxrQ-9B/view?usp=sharing>)
+
 
 
 
